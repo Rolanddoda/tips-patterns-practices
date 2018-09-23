@@ -21,9 +21,9 @@ console.log(multiply(2)(3)) //=> 6
 
 ```javascript
 let first = multiply(2)
-let second = first(10)
+let second = first(3)
 
-console.log(second) //=> 10
+console.log(second) //=> 6
 ```
 
 As we know after calling a function the variables created inside will no longer exists.But as we can see this is a hack to give a longer life to a variable.
